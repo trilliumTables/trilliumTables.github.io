@@ -1,0 +1,22 @@
+
+    <div class="learn-more">
+	  <div class="container">
+		<div class= "row">
+	      <div class= "col-md-4">
+			<h3>About our Tabletops</h3>
+			<p>Tabletops are made of a material that I don't know, but seems to be slip-resistant.  Ask Peach for more information about them.</p>
+			<p><a href="#">More Info</a></p>
+	      </div>
+		  <div class = "col-md-4">
+			<h3>About Images</h3>
+			<p>Send us some high-quality images and we'll talk.</p>
+			<p><a href="aboutImages/index.html">Learn more about what kind of images you should submit.</a></p>
+		  </div>
+		  <div class = "col-md-4">
+			<h3>Check us out on Facebook!</h3>
+			<p>Newfers!</p>
+			<p><a href="https://www.facebook.com/">Facebook Page</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>

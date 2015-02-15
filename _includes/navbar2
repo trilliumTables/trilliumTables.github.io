@@ -1,0 +1,13 @@
+    <div class="nav">
+      <div class="container">
+        <ul class = "pull-left">
+          <li><a href="file:///Users/katherineklinefelter/Documents/OtherCsProjects/Websites/DogTables/AllPages/products.html">Products</a></li>
+          <li><a href="file:///Users/katherineklinefelter/Documents/OtherCsProjects/Websites/DogTables/AllPages/aboutUs.html">About Us</a></li>
+        </ul>
+        <ul class = "pull-right">
+          <li><a href="#">Cart</a></li>
+          <li><a href="file:///Users/katherineklinefelter/Documents/OtherCsProjects/Websites/DogTables/AllPages/contactUs.html">Contact US</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
