@@ -6,6 +6,7 @@
   font-weight: normal;
   padding: 12px;
   text-transform: uppercase;
+
 }
 
 .nav li {
@@ -14,6 +15,12 @@
   padding-bottom: 14px;
 
 }
+
+.navbar {
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
 
 .jumbotron {
   background-image:url('https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn2/v/t1.0-9/552604_633612173317383_376037379_n.jpg?oh=1c04c1e5b2345e835657218ae4658bdf&oe=550B049C&__gda__=1426251474_2848ee4d26d1a5cb20a9b08816ad7710');
