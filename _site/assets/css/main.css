@@ -1,11 +1,19 @@
 
 
+
+/* removes the color from hover and the background of selected*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: inherit;
+    background: inherit;
+}
+
 .nav a {
   color: #5a5a5a;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: normal;
   padding: 12px;
   text-transform: uppercase;
+  display: inline;
 
 }
 
@@ -20,10 +28,6 @@
     font-size: 16px;
 }
 
-.nav a{
-    
-
-}
 
 .jumbotron {
   background-image:url('https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn2/v/t1.0-9/552604_633612173317383_376037379_n.jpg?oh=1c04c1e5b2345e835657218ae4658bdf&oe=550B049C&__gda__=1426251474_2848ee4d26d1a5cb20a9b08816ad7710');
