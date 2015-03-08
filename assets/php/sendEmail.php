@@ -27,7 +27,7 @@ function sendEmailWithAttachments($recipientEmail,$senderEmail,$subject,$message
      
     if(isset($_FILES)) {
 echo "iamhere";
-        $allowedExtensions = array("pdf","doc","docx","gif","jpeg","jpg","JPG","png","PNG","rtf","txt","xml");
+        $allowedExtensions = array("jpeg","jpg","JPG","png","PNG");
  
         $files = array();
         foreach($_FILES as $name=>$file) {
