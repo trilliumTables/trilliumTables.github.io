@@ -23,12 +23,26 @@ weight: 6
             
             <p>When you are ready, submit your image and size in the form below.  You will be redirected to our store which is hosted by Square.</p>
 
-            <iframe src='/form/contactform.php' frameborder='0' width='100%' height='600' allowtransparency= 'true' ></iframe>
-
+            <form name="contactform" class="contactform" method="post" onsubmit="return validateForm()"  action="sendEmail.php">
+              <label>Sender Email:</label>
+              <input type="text" id="semail" name="semail" />
+              <label>Recipient Email:</label>
+              <input type="text" id="remail" name="remail" value="" />
+              <label for="Subject">Subject:</label>
+              <input type="text" name="Subject" id="Subject" />
+              <label for="Attachment">Attachment:</label>
+              <input type="file" name="attach1" id="attach1" />
+              <label for="Message">Message:</label><br />
+              <textarea name="Message" rows="10" cols="50" id="Message"></textarea>
+              <div class="submit-btn">
+              <input type="submit"/>
+              </div>
+            </form>
 
         </div>
     {% include cart %}
-        
+
+   
     </div>
     
 
