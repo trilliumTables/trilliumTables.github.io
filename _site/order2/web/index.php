@@ -82,7 +82,7 @@
     
       
         
-          <li class="active"><a href="/aboutUs" class="active">About Us</a></li>
+          <li><a href="/aboutUs">About Us</a></li>
         
       
     
@@ -288,7 +288,7 @@
     
       
         
-          <li><a href="/order2/web/index.php">Order</a></li>
+          <li class="active"><a href="/order2/web/index.php" class="active">Order</a></li>
         
       
     
@@ -456,35 +456,32 @@
 
 
 
-    <div class ="AboutUs">
-    <div class = "container">
-        <h2>About Us</h2>
-        <p>We have had newfers for many many years!  We like them a lot.  Because of that, we know which products work well for them.  Here are our newfers.</p>
-        <div class= "row">
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="https://scontent-a-dfw.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1441273_690871980924735_992621373_n.jpg?oh=4b8ba2307892c00ee614aaece15c9ce2&oe=5508B0D2">
-                </div>
-                 <div class="thumbnail">
-                    <img src="https://scontent-a-dfw.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1441273_690871980924735_992621373_n.jpg?oh=4b8ba2307892c00ee614aaece15c9ce2&oe=5508B0D2">
-                </div>
-            </div>
-            <div class = col-md-4>
-                <div class="thumbnail">
-                    <img src="https://scontent-a-dfw.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1441273_690871980924735_992621373_n.jpg?oh=4b8ba2307892c00ee614aaece15c9ce2&oe=5508B0D2">
-                </div>
-                <div class="thumbnail">
-                    <img src="https://scontent-a-dfw.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1441273_690871980924735_992621373_n.jpg?oh=4b8ba2307892c00ee614aaece15c9ce2&oe=5508B0D2">
-                </div>
-            </div>
-            <div class = col-md-4>
-                <div class="thumbnail">
-                    <img src="https://scontent-b-dfw.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/484773_687978437880756_1410059292_n.jpg?oh=99124e9ee1633c8113e26b3a7a38aa44&oe=550254E4">
-                </div>
-            </div>
-        </div>
-    </div>
 
+    <div class ="orders">
+        <div class = "container">
+            <h2>Before you order</h2>
+            <p>Make sure that you have accurate measurements for your table as specified in another place on this site (will include link).  Also double check that the image is of the right quality as specified (link).</p>
+            <hr class="featurette-divider">
+            
+            <p>When you are ready, submit your image and size in the form below.  You will be redirected to our store which is hosted by Square.</p>
+
+            <form name="contactform" class="contactform" method="post" onsubmit="return validateForm()"  action="sendEmail.php">
+              <label>Sender Email:</label>
+              <input type="text" id="semail" name="semail" />
+              <label>Recipient Email:</label>
+              <input type="text" id="remail" name="remail" value="" />
+              <label for="Subject">Subject:</label>
+              <input type="text" name="Subject" id="Subject" />
+              <label for="Attachment">Attachment:</label>
+              <input type="file" name="attach1" id="attach1" />
+              <label for="Message">Message:</label><br />
+              <textarea name="Message" rows="10" cols="50" id="Message"></textarea>
+              <div class="submit-btn">
+              <input type="submit"/>
+              </div>
+            </form>
+
+        </div>
     
 <div style="
 	cursor: pointer; 
@@ -550,30 +547,10 @@
 </div>
 
 
-    
-    </div>
 
+   
+    </div>
     
-    <div class="learn-more">
-	  <div class="container">
-		<div class= "row">
-	      <div class= "col-md-4">
-			<h3>About our Tabletops</h3>
-			<p>Tabletops are made of a material that I don't know, but seems to be slip-resistant.  Ask Peach for more information about them.</p>
-			<p><a href="#">More Info</a></p>
-	      </div>
-		  <div class = "col-md-4">
-			<h3>About Images</h3>
-			<p>Send us some high-quality images and we'll talk.</p>
-			<p><a href="/aboutImages/index.html">Learn more about what kind of images you should submit.</a></p>
-		  </div>
-		  <div class = "col-md-4">
-			<h3>Check us out on Facebook!</h3>
-			<p>Newfers!</p>
-			<p><a href="https://www.facebook.com/">Facebook Page</a></p>
-		  </div>
-	    </div>
-	  </div>
-	</div>
+
   </body>
 </html>
