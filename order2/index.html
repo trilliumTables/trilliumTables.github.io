@@ -1,0 +1,52 @@
+---
+title: Order
+group: navigation
+weight: 6
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include header %}
+
+  <body>
+
+  {% include navbar %}
+
+
+    <div class ="orders">
+        <div class = "container">
+            <h2>Before you order</h2>
+            <p>Make sure that you have accurate measurements for your table as specified in another place on this site (will include link).  Also double check that the image is of the right quality as specified (link).</p>
+            <hr class="featurette-divider">
+            
+            <p>When you are ready, submit your image and size in the form below.  You will be redirected to our store which is hosted by Square.</p>
+
+
+            <form name=\"contactform\" class=\"contactform\" method=\"post\" onsubmit=\"return validateForm()\"  action=\"https://stark-everglades-2823.herokuapp.com/">\n"; 
+              <label>Sender Email:</label>\n"; 
+              <input type=\"text\" id=\"semail\" name=\"semail\" />\n"; 
+              <label>Recipient Email:</label>\n"; 
+              <input type=\"text\" id=\"remail\" name=\"remail\" value=\"\" />\n"; 
+              <label for=\"Subject\">Subject:</label>\n"; 
+              <input type=\"text\" name=\"Subject\" id=\"Subject\" />\n"; 
+              <label for=\"Attachment\">Attachment:</label>\n"; 
+              <input type=\"file\" name=\"attach1\" id=\"attach1\" />\n"; 
+              <label for=\"Message\">Message:</label><br />\n"; 
+              <textarea name=\"Message\" rows=\"10\" cols=\"50\" id=\"Message\"></textarea>\n"; 
+              <div class=\"submit-btn\">\n"; 
+              <input type=\"submit\"/>\n"; 
+              </div>\n"; 
+            </form>\n";
+
+
+        </div>
+    {% include cart %}
+
+   
+    </div>
+    
+
+  </body>
+</html>
