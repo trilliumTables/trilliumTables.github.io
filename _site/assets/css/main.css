@@ -1,4 +1,8 @@
-
+.centeredimg.displayed{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* removes the color from hover and the background of selected*/
