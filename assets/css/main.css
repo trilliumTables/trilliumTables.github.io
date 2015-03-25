@@ -71,7 +71,7 @@
 
 
 .jumbotron {
-  background-image:url('/assets/images/bannerCropped.jpg');
+  background-image:url('/assets/images/bannerCroppedLabeled.jpg');
   background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -81,7 +81,7 @@
 
 .jumbotron .container {
   position: relative;
-  top:-750px;
+  top:175%;
   left: 500px
 }
 
