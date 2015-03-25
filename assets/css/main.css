@@ -71,15 +71,18 @@
 
 
 .jumbotron {
-  background-image:url('https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn2/v/t1.0-9/552604_633612173317383_376037379_n.jpg?oh=1c04c1e5b2345e835657218ae4658bdf&oe=550B049C&__gda__=1426251474_2848ee4d26d1a5cb20a9b08816ad7710');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-image:url('/assets/images/bannerCropped.jpg');
+  background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 66.64%; /* (img-height / img-width * width) */
+                /* (853 / 1280 * 100) */}
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top:-750px;
+  left: 500px
 }
 
 .jumbotron h1 {
@@ -90,7 +93,7 @@
 }
 
 .jumbotron p {
-  font-size: 20px;
+  font-size: 24px;
   color: #fff;
 }
 
