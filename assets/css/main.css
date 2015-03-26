@@ -1,9 +1,4 @@
-.ui-icon-home {
-   background: url("home.png") no-repeat 50% 50% !important;      
-   -moz-border-radius:0px;
-    -webkit-border-radius:0px;
-   border-radius:0px
-}
+
 
 /*makes it collapse before overflowing onto a new line*/
 @media (max-width: 1200px) {
