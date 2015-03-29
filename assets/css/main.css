@@ -1,4 +1,10 @@
-
+.orders.container.row.col-md-6{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 500px;
+}
 
 /*makes it collapse before overflowing onto a new line*/
 @media (max-width: 1200px) {
